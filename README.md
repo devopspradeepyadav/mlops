@@ -25,11 +25,7 @@ Build, train, package, and deploy a machine-learning model using modern MLOps pr
 - CI-driven automation
 
 This project is intentionally small, focused, and production-oriented.
-
----
-
-## 📂 Project Structure
-
+<img width="1264" height="958" alt="image" src="https://github.com/user-attachments/assets/942a1447-542c-4a2e-aad1-1914934d389d" />
 
 ---
 
@@ -87,8 +83,8 @@ curl -X POST "http://127.0.0.1:5000/predict" \
 ```
 🐳 Build and run the Docker image:
 ```
-docker build -t hello-mlops .
-docker run -p 5000:5000 hello-mlops
+docker build -t mlops-wp-model.
+docker run -p 5000:5000 mlops-wp-model
 ```
 🛠️ Tools & Technologies Used
 ```
